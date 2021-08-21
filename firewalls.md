@@ -33,6 +33,6 @@ Stateful inspection, also known as dynamic filtering, is a firewall technology t
 1. Firewall does not provide us anti-virus or anti-malware properties.
 ## References
 1. https://www.youtube.com/watch?v=fCM86XAyQ7o&list=PLBbU9-SUUCwV7Dpk7GI8QDLu3w54TNAA6&index=5
-2. wikipedia.org
+2. www.wikipedia.org
 3. https://www.fortinet.com/resources/cyberglossary/how-does-a-firewall-work
 4. https://www.yourdictionary.com/
