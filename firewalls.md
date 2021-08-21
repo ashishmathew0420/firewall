@@ -1,14 +1,14 @@
 # FIREWALL
 ## contents
-* Definition[Link to Header](#Definition)
-* How firewall works
-* Difference between software and hardware firewalls
-* three main types of firewalls
-   * packet filtering
-   * proxy firewall
-   * statefull inspection
-* Limitations
-* References
+* [Definition](#Definition)
+* [How firewall works](#how-firewall-works)
+* [Difference between software and hardware firewalls](#difference-between-hardware-and-software)
+* [three main types of firewalls](#the-three-main-types-of-firewall-technologies)
+   * [packet filtering](#packet-filtering)
+   * [proxy firewall]((#proxy-firewall)
+   * [statefull inspection](statefull-inspection)
+* [Limitations](#limitations-of-firewall)
+* [References](#references)
 ## Definition
 ![firewall](./pictures/intro.png)
 A firewall is a software or a hardware piece that acts like a filter that allows only trusted data to flow through it. A firewall is more like a filter than a wall as it allows trusted data and blocks known threats also restrict outgoing traffic to prevent spam and hacking.The term firewall was applied to networking in the late 80s and the predecessors of the firewall was routers which could filter the packets crossing them.
