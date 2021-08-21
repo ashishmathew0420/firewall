@@ -1,6 +1,6 @@
 # FIREWALL
 ## contents
-* Definition
+* Definition[Link to Header](#Definition)
 * How firewall works
 * Difference between software and hardware firewalls
 * three main types of firewalls
@@ -9,7 +9,7 @@
    * statefull inspection
 * Limitations
 * References
-
+## Definition
 ![firewall](./pictures/intro.png)
 A firewall is a software or a hardware piece that acts like a filter that allows only trusted data to flow through it. A firewall is more like a filter than a wall as it allows trusted data and blocks known threats also restrict outgoing traffic to prevent spam and hacking.The term firewall was applied to networking in the late 80s and the predecessors of the firewall was routers which could filter the packets crossing them.
 The basic task of a firewall is to monitor the network traffic both incoming and outgoing. Also, known as a Network firewall because of its capability to prevent unauthorized access to/from private networks. 
