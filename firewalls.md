@@ -25,13 +25,13 @@ Does not use computer's resources, has its own resources | Consumes computers re
 Protect all the systems in the network |protect the sytem which it is installed in 
 Filters traffic of all system in the network|Filters traffic of sytem which it is installed
 ## The Three main Types of Firewall Technologies
-* Packet filltering 
+* #### Packet filltering 
 ![packetfiltering](./pictures/packetfiltering.png)
 Packets are a small amount of data. A packet filter is the simplest type of firewall. Dealing with each individual packet, The firewall applies its rule (access-control-list which contains a collection of permit and deny conditions) to determine which packet to allow or disallow. The firewall examines each packet based on the following criteria . 
-* proxy firewall
+* #### proxy firewall
 ![Proxy-server](./pictures/Proxy-Server.png)
 A proxy firewall is also called an application firewall or gateway firewall.  A proxy firewall act as a gateway between the user and the internet. A proxy firewall is also a proxy server but all proxy servers are not proxy firewalls. A proxy firewall inspects all network traffic to detect and protect against threats. It can also detect network intrusion and enforce security policies. It provides security to the user system by monitoring and blocking traffic that is transmitted to and from the internet. A proxy firewall protects systems from unauthorized access. They act as a barrier between authorized and unauthorized users. A proxy firewall is also used to restrict access to sensitive sites.
-* Statefull inspection
+* #### Statefull inspection
 ![statefull](./pictures/statefull.jpg)
 Stateful inspection, also known as dynamic filtering, is a firewall technology that monitors the state of active connections and uses this information to determine which network packets to allow through the firewall. Stateful inspection monitors communication packets over a period of time and examines both incoming and outgoing packets. Outgoing packets that request specific types of incoming packets are tracked and only those incoming packets constituting a proper response are allowed through the firewall. It works by examining the contents of data packets and then comparing them with data packets that previously passed through the firewall.
 ## Limitations of firewall
