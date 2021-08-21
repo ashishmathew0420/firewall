@@ -26,10 +26,16 @@ Protect all the systems in the network |protect the sytem which it is installed 
 Filters traffic of all system in the network|Filters traffic of sytem which it is installed
 ## The Three main Types of Firewall Technologies
 *  Packet filltering 
+
 ![packetfiltering](./pictures/packetfiltering.png)
+
+
 Packets are a small amount of data. A packet filter is the simplest type of firewall. Dealing with each individual packet, The firewall applies its rule (access-control-list which contains a collection of permit and deny conditions) to determine which packet to allow or disallow. The firewall examines each packet based on the following criteria . 
 *  proxy firewall
+
 ![Proxy-server](./pictures/Proxy-Server.png)
+
+
 A proxy firewall is also called an application firewall or gateway firewall.  A proxy firewall act as a gateway between the user and the internet. A proxy firewall is also a proxy server but all proxy servers are not proxy firewalls. A proxy firewall inspects all network traffic to detect and protect against threats. It can also detect network intrusion and enforce security policies. It provides security to the user system by monitoring and blocking traffic that is transmitted to and from the internet. A proxy firewall protects systems from unauthorized access. They act as a barrier between authorized and unauthorized users. A proxy firewall is also used to restrict access to sensitive sites.
 *  Statefull inspection
 ![statefull](./pictures/statefull.jpg)
