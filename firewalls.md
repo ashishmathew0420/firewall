@@ -25,7 +25,7 @@ Does not use computer's resources, has its own resources | Consumes computers re
 Protect all the systems in the network |protect the sytem which it is installed in 
 Filters traffic of all system in the network|Filters traffic of sytem which it is installed
 ## The Three main Types of Firewall Technologies
-* #### Packet filltering 
+####*  Packet filltering 
 ![packetfiltering](./pictures/packetfiltering.png)
 Packets are a small amount of data. A packet filter is the simplest type of firewall. Dealing with each individual packet, The firewall applies its rule (access-control-list which contains a collection of permit and deny conditions) to determine which packet to allow or disallow. The firewall examines each packet based on the following criteria . 
 * #### proxy firewall
